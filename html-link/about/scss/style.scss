@@ -1,0 +1,367 @@
+@import 'vars';
+.header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 146px;
+    padding-right: 32px;
+    height: 100px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        &-href {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+            margin-left: 240px;
+            margin-right: 177px;
+            &-one {
+                ul {
+                    display: flex;
+                    gap: 36px;
+                    li {
+                        a {
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+        &-button {
+            background-color: $main-color;
+            button {
+                background-color: $main-color;
+                color: #fff;
+                width: 200px;
+                height: 60px;
+            }
+        }
+    }
+}
+
+.about {
+    padding-top: 67px;
+    background-image: url('../img/about/about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    background-position: bottom;
+    &__inner {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        h1 {
+            font-size: 70px;
+            line-height: 72px;
+            color: #fff;
+            font-weight: lighter;
+        }
+        &-gps {
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: lighter;
+            color: #fff;
+            align-items: center;
+            margin-top: 15px;
+            p {
+                border-bottom: 1px solid #fff;
+                height: 20px;
+            }
+            img {
+                margin-top: 4px;
+            }
+        }
+        &-button {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 24px;
+            .about__inner-btn {
+                width: 180px;
+                height: 55px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: none;
+                border: 2px solid #fff;
+                
+                margin-top: 50px;
+                a {
+                    font-size: 13px;
+                    color: #fff;
+                    font-weight: lighter;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+        
+    }
+    
+}
+.acti {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    h2 {
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: normal;
+        color: $main-color;
+        width: 537px;
+    }
+}
+.card {
+    margin-top: 150px;
+    width: 1117px;
+    margin-left: auto;
+    margin-right: auto;
+    &__inner {
+        display: flex;
+        gap: 138px;
+        &-info {
+            width: 432px;
+            h2 {
+                font-size: 40px;
+                line-height: 40px;
+                font-weight: normal;
+                color: $main-color;
+                margin-top: 67px;
+            }
+            h3 {
+                margin-top: 67px;
+                color: $main-color;
+                width: 393px;
+                font-size: 24px;
+                line-height: 33px;
+                font-style: italic;
+            }
+            ul {
+                display: flex;
+                gap: 24px;
+                margin-top: 50px;
+                li {
+                    font-size: 18px;
+                    line-height: 30px;
+                    font-weight: lighter;
+                    color: $main-color;
+                }
+            }
+            .pip {
+                color: #333;
+                font-weight: lighter;
+                margin-top: 50px;
+            }
+        }
+        &-img {
+            width: 546px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+    }
+}
+.background {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 100px;
+    &__inner {
+        display: flex;
+        gap: 24px;
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+}
+.img {
+    margin-top: 26px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    &__inner {
+        display: flex;
+        gap: 24px;
+        width: 100%;
+        &-info {
+            width: 100%;
+            background-color: #E9ECE0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p {
+                width: 299px;
+                font-size: 20px;
+                line-height: 36px;
+                color: #333;
+                font-style: italic;
+            }
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.info {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    &__inner {
+        width: 1120px;
+        margin-left: auto;
+        margin-right: auto;
+        h2 {
+            font-size: 40px;
+            color: $main-color;
+            font-weight: normal;
+        }
+        &-info {
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-between;
+            &-link {
+                #phoneNumber {
+                    margin-top: 20px;
+                }
+                &-icon {
+                    display: flex;
+                    align-items: center;
+                    gap: 43px;
+                    margin-top: 50px;
+                }
+            }
+            &-gmail {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                &-npt {
+                    display: flex;
+                    gap: 24px;
+                }
+                input {
+                    padding: 16px 22px;
+                    font-size: 16px;
+                    color: #828282;
+                }
+                #textarea {
+                    width: 100%;
+                    height: 125px;
+                }
+                button {
+                    width: 200px;
+                    height: 60px;
+                    background-color: $main-color;
+                    font-size: 14px;
+                    color: #fff;
+                    font-weight: lighter;
+                    letter-spacing: 1px;
+                    margin-left: auto;
+                }
+                
+            }
+            
+        }
+
+    }
+}
+.love {
+    margin-top: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        p {
+            font-size: 20px;
+            font-family: "Shantell Sans", cursive;
+            color: $main-color;
+        }
+        img {
+            width: 50px;
+            height: 50px;
+            margin-top: 7px;
+        }
+    }
+}
+.footer {
+    padding: 100px 146px;
+    background-color: $main-color;
+    margin-top: 150px;
+    display: flex;
+    &__inner {
+        display: flex;
+        gap: 206px;
+        margin-left: auto;
+        margin-right: auto;
+        &-email {
+            #pip {
+                width: 418px;
+                color: #fff;
+                font-weight: lighter;
+            }
+            h2 {
+                font-weight: bold;
+                color: #fff;
+            }
+            &-input {
+                display: flex;
+                margin-top: 40px;
+                justify-content: center;
+                img {
+                    margin-left: 5px;
+                }
+                input {
+                    font-size: 16px;
+                    line-height: 30px;
+                    width: 400px;
+                    background: none;
+                    border: none;
+                    font-weight: lighter;
+                }
+                input[type="email"]::placeholder {
+                    color: #fff;
+                }
+            }
+            #pip {
+                margin-top: 10px;
+            }
+            
+            .br {
+                width: 437px;
+                height: 2px;
+                background-color: #EFEFEF;
+            }
+            .pop {
+                font-size: 16px;
+                line-height: 30px;
+                font-weight: lighter;
+                margin-top: 70px;
+                color: #EFEFEF;
+            }
+        }
+        &-cards {
+            &-href {
+                display: flex;
+                gap: 35px;
+            }
+            &-card {
+                display: flex;
+                align-items: center;
+                margin-top: 50px;
+                margin-left: 181px;
+                gap: 40px;
+            }
+        }
+    }
+}

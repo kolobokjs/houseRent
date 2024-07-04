@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul, ol {
+    list-style: none;
+}
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.din {
+    font-family: 'DIN', sans-serif;
+}
+
+.mulish {
+    font-family: 'Mulish', sans-serif;
+}
+
+.pip {
+    color: #000;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.text {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+}

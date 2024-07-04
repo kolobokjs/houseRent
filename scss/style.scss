@@ -1,0 +1,409 @@
+@import 'vars';
+.header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 146px;
+    padding-right: 32px;
+    height: 100px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        &-href {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+            margin-left: 240px;
+            margin-right: 177px;
+            &-one {
+                ul {
+                    display: flex;
+                    gap: 36px;
+                    li {
+                        a {
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+        &-button {
+            background-color: $main-color;
+            button {
+                background-color: $main-color;
+                color: #fff;
+                width: 200px;
+                height: 60px;
+            }
+        }
+    }
+}
+.forest {
+    padding-top: 95px;
+    background-image: url('../img/forest/intro.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+    &__inner {
+        margin-left: 607px;
+        &-change {
+            color: #000;
+        }
+        h1 {
+            font-size: 70px;
+            line-height: 72px;
+            color: #fff;
+        }
+        p {
+            font-size: 20px;
+            line-height: 28px;
+            color: #fff;
+            width: 333px;
+            margin-top: 34px;
+            margin-left: 326px;
+            text-align: center;
+        }
+    }
+    &__array {
+        display: flex;
+        justify-content: center;
+        margin-top: 314px;
+        gap: 47px;
+    }
+
+}
+.book {
+    width: 383px;
+    height: 100px;
+    margin-top: -63px;
+    margin-left: 146px;
+    &__inner {
+        display: flex;
+        &-info {
+            width: 283px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $main-color;
+            a {
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: 1px;
+                color: #fff;
+            }
+        }
+        &-number {
+            height: 100px;
+            width: 120px;
+            background-color: #E9ECE0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            &-block {
+                color: #333333;
+                .din:nth-child(1) {
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+                .din:nth-child(2) {
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+                .din:nth-child(3) {
+                    font-size: 12px;
+                    line-height: 18px;
+                    margin-left: 12px;
+                }
+            }
+        }
+    }
+
+}
+
+.cabins {
+    margin-top: 111px;
+    margin-bottom: 109px;
+    &__inner {
+        display: flex;
+        gap: 150px;
+        flex-direction: column;
+        &-info {
+            display: flex;
+            gap: 105px;
+            &-text {
+                margin-top: 87px;
+                margin-left: 147px;
+                width: 465px;
+                h3 {
+                    font-size: 40px;
+                    line-height: 40px;
+                    color: $main-color;
+                }
+                p {
+                    margin-top: 50px;
+                    margin-bottom: 31px;
+                }
+                div {
+                    width: 83px;
+                    height: 2px;
+                    background-color: $main-color;
+                }
+            }
+            &-img {
+                background-image: url('../img/cabins/cabins-info.jpg');
+                width: 693px;
+                height: 438px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+        }
+        &-img {
+            display: flex;
+            padding: 0 30px 26px 34px;
+            gap: 24px;
+            justify-content: center;
+            &-block {
+                width: 432px;
+                height: 387px;
+            }
+            &-block:nth-child(1) {
+                background-image: url('../img/cabins/one-house.jpg');
+            }
+            &-block:nth-child(2) {
+                background-image: url('../img/cabins/two-house.jpg');
+            }
+            &-block:nth-child(3) {
+                background-image: url('../img/cabins/three-house.jpg');
+            }
+        }
+    }
+}
+.location {
+    margin-top: 15px;
+    &__inner {
+        display: flex;
+        height: 650px;
+        width: 100%;
+        &-gps {
+            width: 100%;
+            height: 100%;
+            background-image: url('../img/location/location.jpg');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &-info {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #E9ECE0;
+            &-text {
+                width: 465px;
+                h3 {
+                    font-size: 40px;
+                    line-height: 40px;
+                    color: $main-color;
+                }
+                p {
+                    margin-top: 50px;
+                    margin-bottom: 31px;
+                    color: #333333;
+                }
+                div {
+                    width: 83px;
+                    height: 2px;
+                    background-color: $main-color;
+                }
+            }
+        }
+    }
+}
+.facilities {
+    padding: 150px 230px 126px;
+    background-color: $main-color;
+    &__inner {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+        h1 {
+            font-size: 40px;
+            line-height: 40px;
+            color: #fff;
+            font-weight: lighter;
+        }
+        &-icons {
+            width: 829px;
+            display: flex;
+            gap: 100px;
+            height: 555px;
+            margin: 0 auto;
+            &-th {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-top: 100px;
+                gap: 85px;
+            }
+            &-block {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .text {
+                    margin-top: 12px;
+                    width: 144px;
+                }
+            }
+        }
+    }
+}
+.about {
+    position: relative;
+    &__inner {
+        height: 559px;
+        display: flex;
+        &-one {
+            background-image: url('../img/about/about-one.jpg');
+            width: 839px;
+            height: 100%;
+            
+        }
+        &-two {
+            background-image: url('../img/about/about-two.jpg');
+            position: absolute;
+            width: 815px; //815
+            height: 100%;
+            margin-left: 704px;
+        }
+        &-btn {
+            width: 157px;
+            height: 157px;
+            border-radius: 100px;
+            background-color: #E9ECE0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            z-index: 1;
+            margin: 200px 625px;
+            a {
+                font-size: 16px;
+                line-height: 22px;
+                color: #333333;
+            }
+        }
+    }
+}
+.touch {
+    margin: 150px 146px 133px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        &-img {
+            width: 386px;
+            height: 288px;
+            margin-top: 46px;
+            &-one {
+                background-image: url('../img/touch/book.jpg');
+                width: 100%;
+                height: 188px;
+            }
+        }
+        &-info {
+            #parag {
+                margin-top: 50px;
+            }
+            #phoneNumber {
+                margin-top: 20px;
+            }
+            h2 {
+                font-size: 40px;
+                line-height: 60px;
+                color: $main-color;
+            }
+            &-icon {
+                margin-top: 50px;
+                display: flex;
+                align-items: center;
+                gap: 43px;
+            }
+        }
+    }
+}
+.footer {
+    padding: 100px 146px;
+    background-color: $main-color;
+    &__inner {
+        display: flex;
+        gap: 206px;
+        &-email {
+            #pip {
+                width: 418px;
+                color: #fff;
+                font-weight: lighter;
+            }
+            h2 {
+                font-weight: bold;
+                color: #fff;
+            }
+            &-input {
+                display: flex;
+                margin-top: 40px;
+                justify-content: center;
+                img {
+                    margin-left: 5px;
+                }
+                input {
+                    font-size: 16px;
+                    line-height: 30px;
+                    width: 400px;
+                    background: none;
+                    border: none;
+                    font-weight: lighter;
+                }
+                input[type="email"]::placeholder {
+                    color: #fff;
+                }
+            }
+            #pip {
+                margin-top: 10px;
+            }
+            
+            .br {
+                width: 437px;
+                height: 2px;
+                background-color: #EFEFEF;
+            }
+            .pop {
+                font-size: 16px;
+                line-height: 30px;
+                font-weight: lighter;
+                margin-top: 70px;
+                color: #EFEFEF;
+            }
+        }
+        &-cards {
+            &-href {
+                display: flex;
+                gap: 35px;
+            }
+            &-card {
+                display: flex;
+                align-items: center;
+                margin-top: 50px;
+                margin-left: 181px;
+                gap: 40px;
+            }
+        }
+    }
+}
